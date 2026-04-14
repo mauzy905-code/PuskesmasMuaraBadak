@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Puskesmas Muara Badak</title>
+  </head>
+  <body>
+    <script>
+      (function () {
+        var l = window.location;
+        var target = l.pathname + l.search + l.hash;
+        var next = l.protocol + "//" + l.host + "/?p=" + encodeURIComponent(target);
+        l.replace(next);
+      })();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Logo Puskesmas Muara Badak">
+  <circle cx="256" cy="256" r="248" fill="#22c55e"/>
+  <circle cx="256" cy="256" r="210" fill="#ffffff"/>
+
+  <path d="M256 124 370 190 370 322 256 388 142 322 142 190Z" fill="none" stroke="#15803d" stroke-width="18" stroke-linejoin="round"/>
+
+  <g fill="#22c55e">
+    <rect x="228" y="170" width="56" height="172" rx="8"/>
+    <rect x="170" y="228" width="172" height="56" rx="8"/>
+  </g>
+
+  <path d="M206 250 256 210 306 250" fill="none" stroke="#15803d" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g fill="none" stroke="#15803d" stroke-width="10" stroke-linecap="round">
+    <circle cx="244" cy="266" r="10"/>
+    <circle cx="268" cy="266" r="10"/>
+  </g>
+</svg>

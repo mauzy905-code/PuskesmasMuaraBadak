@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="google-site-verification" content="14ng-0pSoSKNbx8R0Tm2ouYS34xbkXGvq90i4cZayN8" />
+    <title>Puskesmas Muara Badak</title>
+    <meta name="description" content="Website resmi Puskesmas Muara Badak, Kabupaten Kutai Kartanegara, Kalimantan Timur. Informasi layanan, jadwal, edukasi, galeri, pengumuman, dan kritik & saran.">
+    <meta name="robots" content="max-image-preview:large">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="canonical" href="https://puskesmasmuarabadak.web.id/">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Puskesmas Muara Badak","url":"https://puskesmasmuarabadak.web.id/","logo":"https://puskesmasmuarabadak.web.id/web-app-manifest-512x512.png"}</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css?v=20260409w">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script>
+      (function () {
+        try {
+          var params = new URLSearchParams(location.search || "");
+          var p = params.get("p");
+          if (!p) return;
+          params.delete("p");
+          var rest = params.toString();
+          var next = p + (rest ? (p.indexOf("?") >= 0 ? "&" : "?") + rest : "");
+          history.replaceState(null, "", next);
+        } catch {}
+      })();
+    </script>
+    <script type="module" src="/main.js?v=20260409w" defer></script>
+</head>
+<body>
+    <a class="skip-link" href="#main">Lewati ke konten utama</a>
+
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="/">
+                <span class="brand-mark">
+                    <img class="brand-logo" src="/assets/LOGO%20PKM%20MB.png" alt="Logo Puskesmas Muara Badak" />
+                </span>
+                <span class="brand-text">
+                    <span class="brand-name">Puskesmas Muara Badak</span>
+                    <span class="brand-tagline">Melayani dengan Hati, Menuju Masyarakat Sehat</span>
+                </span>
+            </a>
+
+            <nav class="nav" aria-label="Navigasi utama">
+                <button id="btn-menu" class="btn btn-ghost nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+                    <i class="bi bi-list" aria-hidden="true"></i>
+                    <span class="sr-only">Buka menu</span>
+                </button>
+
+                <div id="nav-links" class="nav-links" data-open="false">
+                    <a class="nav-link" href="/">Beranda</a>
+                    <a class="nav-link" href="/jadwal">Layanan & Jadwal</a>
+                    <a class="nav-link" href="/alur">Panduan Berobat</a>
+                    <a class="nav-link" href="/pengumuman">Edukasi & Info</a>
+                    <a class="nav-link" href="/galeri">Galeri</a>
+                    <div class="nav-dropdown" data-nav-dropdown="profil" data-open="false">
+                        <a class="nav-link" href="/tentang">Profil Kami</a>
+                        <button class="nav-drop-btn" type="button" aria-expanded="false" aria-label="Buka menu Profil Kami">
+                            <i class="bi bi-chevron-down" aria-hidden="true"></i>
+                        </button>
+                        <div class="nav-drop-menu" role="menu">
+                            <a class="nav-drop-item" role="menuitem" href="/tentang#tim-medis-karyawan">Tim Medis &amp; Karyawan</a>
+                        </div>
+                    </div>
+                    <a class="nav-link" href="/kontak">Hubungi</a>
+                    <a class="nav-link nav-admin" href="/admin/login">Admin</a>
+                    <a class="btn btn-primary nav-cta" href="/kritik-saran">Kritik & Saran</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main" class="site-main" tabindex="-1">
+        <div class="container">
+            <div id="app" class="app-root"></div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div>
+                <div class="footer-title">Puskesmas Muara Badak</div>
+                <div class="muted">Muara Badak, Kabupaten Kutai Kartanegara, Kalimantan Timur</div>
+                <div class="footer-social">
+                    <a class="icon-link" href="#" aria-label="Instagram">
+                        <i class="bi bi-instagram" aria-hidden="true"></i>
+                    </a>
+                    <a class="icon-link" href="#" aria-label="Facebook">
+                        <i class="bi bi-facebook" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <div class="footer-title">Kontak</div>
+                <div class="muted" id="footer-contact">
+                    <div>Telp: -</div>
+                    <div>Email: -</div>
+                </div>
+            </div>
+            <div>
+                <div class="footer-title">Jam Operasional</div>
+                <div class="muted" id="footer-hours">
+                    <div>Senin–Kamis: 08.00–14.00 WITA</div>
+                    <div>Jumat: 08.00–11.00 & 14.00–16.00 WITA</div>
+                    <div>Sabtu: 08.00–12.00 WITA</div>
+                    <div>Minggu/Hari Libur: Tutup</div>
+                </div>
+            </div>
+        </div>
+        <div class="container footer-bottom muted">
+            <span>&copy; <span id="year"></span> Puskesmas Muara Badak</span>
+        </div>
+    </footer>
+</body>
+</html>

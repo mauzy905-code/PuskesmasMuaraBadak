@@ -522,7 +522,7 @@ export async function renderAdminPanel() {
     const meta = h("div", { class: "muted", id: "svc-meta" }, "Memuat...");
     const list = h("div", { id: "svc-list", style: "display:grid;gap:12px;margin-top:10px" }, []);
     const note = h("textarea", { class: "textarea", id: "svc-note", style: "min-height:110px" }, "");
-    const doctorNames = ["dr. Fatimah Hartina Faradillah", "dr. dr. Galih Alqarana Rabbani", "drg. Farikha Liqna Nailufar", "Nur Aisyah Almi, A.Md. Gz"];
+    const doctorNames = ["dr. Fatimah Hartina Faradillah", "dr.Galih Alqarana Rabbani", "drg. Farikha Liqna Nailufar", "Nur Aisyah Almi, A.Md. Gz"];
     const poliNames = ["Poli Umum", "Poli Anak", "Pelayanan Gigi", "Pelayanan Gizi"];
     const poliClusters = {
       "poli umum": "Klaster 3 (Usia Dewasa & Lansia)",
